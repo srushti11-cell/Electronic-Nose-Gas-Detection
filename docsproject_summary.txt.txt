@@ -1,0 +1,10 @@
+PROJECT TITLE: Electronic Nose (E-Nose) Real-Time Hazardous Gas Detection System
+INSTITUTION: Vidyalankar Institute of Technology (VIT)
+
+ABSTRACT:
+The Electronic Nose (E-Nose) system utilizes an array of metal-oxide semiconductor (MOS) gas sensors to monitor indoor air quality and flag toxic gas exposure risks. Using an Arduino Uno, analog outputs from MQ-2, MQ-3, MQ-7, and MQ-135 sensors are continuously sampled and processed. Ambient environment variables (temperature and humidity) are measured using a DHT22 sensor. Upon detecting concentrations exceeding preset safety thresholds, the system provides visual diagnostic messages on a 16x2 I2C LCD screen, sounds a 6-second timed buzzer alert, and activates an external 5V DC exhaust fan to purge contaminated air.
+
+KEY APPLICABILITY:
+- Medical & Clinical Laboratories (VOC and chemical vapor monitoring)
+- Residential Communities & Hostels (LPG leak detection)
+- Industrial Facilities (Toxic exposure prevention)
